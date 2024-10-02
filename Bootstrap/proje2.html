@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spell Checking</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="projectsStyles.css">
+</head>
+<body>
+    <header class="bg-dark text-light text-center py-5">
+        <div class="container">
+            <h1 class="animated fadeInDown" style="color: aliceblue;">Spell Checking</h1>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="overview" class="project-overview mb-5 animate-on-scroll">
+            <h2>Proje Hakkında</h2>
+            <p>Spell checking, yazılı metinlerdeki yazım hatalarını tespit etmek ve düzeltmek için yapılan bir işlemdir. Bu işlem, yazılı iletişimde doğru ve anlaşılır bir dil kullanımını sağlamak amacıyla önemlidir. Yazım hataları, kelimeyi yanlış yazmak, yanlış hecelemek veya yanlış bir kelimeyi kullanmak gibi çeşitli nedenlerle oluşabilir. </p>
+        </section>
+    
+        <section id="details" class="project-details mb-5 animate-on-scroll">
+            <h2>Proje Detayları</h2>
+ <p style="text-align: justify;">
+    Projede hazır kütüphane kullanılmamıştır. Sadece istatistiksel bir yaklaşım kullanılmıştır.
+    Program, çeşitli hikaye metinlerinin ve kelime sıklığı listelerinin bir derlemesi olan büyük bir metin dosyası (`big.txt`) kullanarak kelimelerin ve frekanslarının bir sözlüğünü oluşturur.
+    Bir kelimenin harflerinde silme, yer değiştirme, değiştirme ve ekleme yaparak yanlış yazılmış bir kelime için olası düzeltmeler üretir.
+    Öncelikle kelimenin, kelime tablosunda olup olmadığı kontrol edilir, ardından düzenleme mesafesi 1 ve 2 olan ayrıca kelime tablosunda bulunan adaylar incelenir.
+    Program, aday kelimelerin tahmini olasılıklarını karşılaştırarak en muhtemel doğru yazımı seçer.
+    Daha sonra öneri sistemi ile olabilecek diğer sonuçları kullanıcıya sunar.
+ </p>
+        </section>
+
+        <section class="project-images mb-5">
+            <h2 class="animated fadeInLeft">Proje Görselleri</h2>
+            <div class="row animated fadeInUp">
+                <div class="col">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="/resimler/speell.png" alt="Proje Görsel 1" class="card-img-top">
+                    </div>
+                </div>
+
+ 
+            </div>
+        </section>
+        <section id="tech" class="project-tech mb-5 animate-on-scroll">
+            <h2>Hazır Kütüphaneler</h2>
+            <ul>
+                <li>autocorrect - İngilizce</li>
+                <li>enchant - İngilizce</li>
+                <li>LanguageTool - İngilizce</li>
+                <li>SpellChecker - İngilizce</li>
+                <li>Zemberek - Türkçe</li>
+            </ul>       
+         
+        </section>
+        <section id="tech" class="project-tech mb-5 animate-on-scroll">
+            <h2>Kullanılan Teknolojiler</h2>
+            <ul>
+                <li>PYTHON</li>
+            </ul>       
+         
+        </section>
+    
+        <section id="links" class="project-links mb-5 animate-on-scroll">
+            <h2>İlgili Linkler</h2>
+            <ul class="list-unstyled">
+                <li><a href="https://github.com/SerkanOgutcuoglu/SpellChecking" target="_blank" class="text-primary">GitHub Reposu</a></li>
+
+            </ul>
+        </section>
+    </main>
+    <footer class="bg-dark text-light text-center py-4">
+        <p style="text-align: center;">&copy; 2024 Serkan Öğütcüoğlu. Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="projectsScript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
